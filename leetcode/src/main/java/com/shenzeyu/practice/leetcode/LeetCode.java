@@ -37,9 +37,24 @@ public class LeetCode {
 
     /**
      * 给定一个单链表，对这个单链表进行排序，要求时间复杂度O（nlogn），空间复杂度O（1）
+     *
+     * 快速排序和归并排序
+     * https://github.com/morethink/algorithm/blob/master/src/main/java/algorithm/leetcode/L_148_SortList.java
      */
     public void sortList() {
-        
+        //快速排序
+
+
+    }
+
+    class ListNode {
+        int val;
+        ListNode next;
+
+        ListNode(int x) {
+            val = x;
+            next = null;
+        }
     }
 
     public static void main(String[] args) {
